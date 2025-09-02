@@ -55,6 +55,24 @@ const learningTracks = [
     description: "Design beautiful interfaces using HTML, CSS, JavaScript, and React.",
     icon: "🎨",
     gradient: "from-pink-500 to-purple-600"
+  },
+  {
+    title: "Back‑End Development",
+    description: "Learn servers, APIs, authentication, and databases with Node, Django.",
+    icon: "⚙️",
+    gradient: "from-gray-500 to-blue-600"
+  },
+  {
+    title: "Full‑Stack Development",
+    description: "Build complete apps combining front‑end and back‑end skills.",
+    icon: "🌐",
+    gradient: "from-teal-500 to-green-600"
+  },
+  {
+    title: "Programming Languages",
+    description: "Learn Python, JavaScript, Java, C++, and more for real‑world coding applications.",
+    icon: "💡",
+    gradient: "from-violet-500 to-purple-600"
   }
 ];
 
