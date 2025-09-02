@@ -6,9 +6,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">L</span>
+                <span className="text-primary-foreground font-bold text-lg">M</span>
               </div>
-              <span className="text-xl font-bold">LearnSmart</span>
+              <span className="text-xl font-bold">MemoLearning</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Empowering learners worldwide with innovative educational technology and 
@@ -30,10 +30,15 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Courses</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Mathematics</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Applied Mathematics</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Computer Science</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Finance & Investing</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Data Science</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Machine Learning</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Economics</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">AI Engineering</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Cybersecurity</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Front-End Development</a></li>
             </ul>
           </div>
           
@@ -50,7 +55,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 LearnSmart. All rights reserved. Built with passion for learners everywhere.
+            © 2025 MemoLearning
           </p>
         </div>
       </div>
