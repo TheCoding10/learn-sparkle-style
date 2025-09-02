@@ -27,7 +27,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Choose LearnSmart?
+            Why Choose MemoLearning?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Our platform is designed with your success in mind. We combine cutting-edge technology 
