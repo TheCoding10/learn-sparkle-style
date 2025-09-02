@@ -4,38 +4,56 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const learningTracks = [
   {
     title: "Applied Mathematics",
-    description: "Master precalculus, linear algebra, and problem-solving with clear visualizations and step-by-step guidance.",
+    description: "Precalculus, linear algebra, and problem‑solving, simplified and visualized.",
     icon: "📊",
     gradient: "from-blue-500 to-purple-600"
   },
   {
     title: "Computer Science",
-    description: "Learn Python, algorithms, data structures, and system design through hands-on projects and real-world applications.",
+    description: "Learn Python, algorithms, data structures, and system design.",
     icon: "💻",
     gradient: "from-green-500 to-blue-600"
   },
   {
+    title: "Finance & Investing",
+    description: "Understand money, markets, and smart financial decisions.",
+    icon: "💰",
+    gradient: "from-yellow-500 to-orange-600"
+  },
+  {
     title: "Data Science",
-    description: "Analyze data, build predictive models, and extract actionable insights using Python, R, and cutting-edge tools.",
+    description: "Analyze data, build models, and extract insights using Python & tools.",
     icon: "📈",
     gradient: "from-orange-500 to-red-600"
   },
   {
     title: "Machine Learning",
-    description: "Understand neural networks, AI logic, and ML algorithms through interactive exercises and practical projects.",
+    description: "Understand neural networks, AI logic, and ML tools hands‑on.",
     icon: "🤖",
     gradient: "from-purple-500 to-pink-600"
   },
   {
-    title: "Finance & Investing",
-    description: "Master financial markets, investment strategies, and smart money management with real-world case studies.",
-    icon: "💰",
-    gradient: "from-yellow-500 to-orange-600"
+    title: "Economics",
+    description: "Understand how the economy works from micro to macro with clear examples.",
+    icon: "📈",
+    gradient: "from-indigo-500 to-purple-600"
   },
   {
-    title: "Digital Marketing",
-    description: "Build powerful marketing campaigns, understand SEO, social media, and analytics to grow your business.",
-    icon: "📱",
+    title: "AI Engineering",
+    description: "Deploy real‑world AI solutions using ML, APIs, cloud tools, and MLOps.",
+    icon: "🔧",
+    gradient: "from-cyan-500 to-blue-600"
+  },
+  {
+    title: "Cybersecurity",
+    description: "Protect systems, understand ethical hacking, and learn digital forensics.",
+    icon: "🔒",
+    gradient: "from-red-500 to-pink-600"
+  },
+  {
+    title: "Front‑End Development",
+    description: "Design beautiful interfaces using HTML, CSS, JavaScript, and React.",
+    icon: "🎨",
     gradient: "from-pink-500 to-purple-600"
   }
 ];

@@ -9,7 +9,7 @@ const Navigation = () => {
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">L</span>
             </div>
-            <span className="text-xl font-bold">LearnSmart</span>
+            <span className="text-xl font-bold">MemoLearning</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
