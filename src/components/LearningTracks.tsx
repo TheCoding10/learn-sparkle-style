@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const learningTracks = [
   {
-    title: "Applied Mathematics",
+    title: "Mathematics",
     description: "Precalculus, linear algebra, and problem‑solving, simplified and visualized.",
     icon: "📊",
     gradient: "from-blue-500 to-purple-600"
@@ -25,54 +25,6 @@ const learningTracks = [
     description: "Analyze data, build models, and extract insights using Python & tools.",
     icon: "📈",
     gradient: "from-orange-500 to-red-600"
-  },
-  {
-    title: "Machine Learning",
-    description: "Understand neural networks, AI logic, and ML tools hands‑on.",
-    icon: "🤖",
-    gradient: "from-purple-500 to-pink-600"
-  },
-  {
-    title: "Economics",
-    description: "Understand how the economy works from micro to macro with clear examples.",
-    icon: "📈",
-    gradient: "from-indigo-500 to-purple-600"
-  },
-  {
-    title: "AI Engineering",
-    description: "Deploy real‑world AI solutions using ML, APIs, cloud tools, and MLOps.",
-    icon: "🔧",
-    gradient: "from-cyan-500 to-blue-600"
-  },
-  {
-    title: "Cybersecurity",
-    description: "Protect systems, understand ethical hacking, and learn digital forensics.",
-    icon: "🔒",
-    gradient: "from-red-500 to-pink-600"
-  },
-  {
-    title: "Front‑End Development",
-    description: "Design beautiful interfaces using HTML, CSS, JavaScript, and React.",
-    icon: "🎨",
-    gradient: "from-pink-500 to-purple-600"
-  },
-  {
-    title: "Back‑End Development",
-    description: "Learn servers, APIs, authentication, and databases with Node, Django.",
-    icon: "⚙️",
-    gradient: "from-gray-500 to-blue-600"
-  },
-  {
-    title: "Full‑Stack Development",
-    description: "Build complete apps combining front‑end and back‑end skills.",
-    icon: "🌐",
-    gradient: "from-teal-500 to-green-600"
-  },
-  {
-    title: "Programming Languages",
-    description: "Learn Python, JavaScript, Java, C++, and more for real‑world coding applications.",
-    icon: "💡",
-    gradient: "from-violet-500 to-purple-600"
   }
 ];
 

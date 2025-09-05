@@ -30,18 +30,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Courses</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Applied Mathematics</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Mathematics</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Computer Science</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Finance & Investing</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Data Science</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Machine Learning</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Economics</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">AI Engineering</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Cybersecurity</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Front-End Development</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Back-End Development</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Full-Stack Development</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Programming Languages</a></li>
             </ul>
           </div>
           
