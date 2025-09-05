@@ -46,7 +46,9 @@ const LearningTracks = () => {
           {learningTracks.map((track, index) => (
             <Card 
               key={track.title} 
-              className="hover-lift bg-gradient-card border-0 shadow-card animate-scale-in"
+              className={`hover-lift bg-gradient-card border-0 shadow-card animate-scale-in ${
+                index === 3 ? 'lg:col-start-2' : ''
+              }`}
               style={{animationDelay: `${index * 0.1}s`}}
             >
               <CardHeader className="text-center pb-4">
