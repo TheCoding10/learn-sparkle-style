@@ -37,6 +37,7 @@ const LearningTracks = () => {
   return (
     <section id="courses" className="py-24 bg-background">
       <div className="container mx-auto px-4">
+        {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Explore Learning Tracks
@@ -46,15 +47,16 @@ const LearningTracks = () => {
             Each track combines theory with practical application for maximum impact.
           </p>
         </div>
-        
+
+        {/* Track Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {learningTracks.map((track, index) => (
-            <Card 
-              key={track.title} 
+            <Card
+              key={track.title}
               className={`hover-lift bg-gradient-card border-0 shadow-card animate-scale-in ${
-                index === 3 ? 'lg:col-start-2' : ''
+                index === 3 ? "lg:col-start-2" : ""
               }`}
-              style={{animationDelay: `${index * 0.1}s`}}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader className="text-center pb-4">
                 <div className="text-4xl mb-4">{track.icon}</div>
@@ -64,9 +66,10 @@ const LearningTracks = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
-                <Link to={track.route}>
-                  <Button 
-                    variant="default" 
+                {/* Wrap button in Link properly */}
+                <Link to={track.route} className="block w-full">
+                  <Button
+                    variant="default"
                     className="w-full bg-gradient-primary hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
                   >
                     Start Learning
@@ -76,9 +79,14 @@ const LearningTracks = () => {
             </Card>
           ))}
         </div>
-        
+
+        {/* View All Courses */}
         <div className="text-center mt-16">
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
+          <Button
+            variant="outline"
+            size="lg"
+            className="text-lg px-8 py-6 h-auto"
+          >
             View All Courses
           </Button>
         </div>
