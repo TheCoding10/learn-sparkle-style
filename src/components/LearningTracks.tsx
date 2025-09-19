@@ -1,30 +1,35 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const learningTracks = [
   {
     title: "Mathematics",
-    description: "Precalculus, linear algebra, and problem‑solving, simplified and visualized.",
+    description: "Precalculus, linear algebra, and problem-solving, simplified and visualized.",
     icon: "📊",
-    gradient: "from-blue-500 to-purple-600"
+    gradient: "from-blue-500 to-purple-600",
+    route: "/math"
   },
   {
     title: "Computer Science",
     description: "Learn Python, algorithms, data structures, and system design.",
     icon: "💻",
-    gradient: "from-green-500 to-blue-600"
+    gradient: "from-green-500 to-blue-600",
+    route: "/computer-science"
   },
   {
     title: "Finance & Investing",
     description: "Understand money, markets, and smart financial decisions.",
     icon: "💰",
-    gradient: "from-yellow-500 to-orange-600"
+    gradient: "from-yellow-500 to-orange-600",
+    route: "/finance"
   },
   {
     title: "Data Science",
     description: "Analyze data, build models, and extract insights using Python & tools.",
     icon: "📈",
-    gradient: "from-orange-500 to-red-600"
+    gradient: "from-orange-500 to-red-600",
+    route: "/data-science"
   }
 ];
 
@@ -59,12 +64,14 @@ const LearningTracks = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
-                <Button 
-                  variant="default" 
-                  className="w-full bg-gradient-primary hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
-                >
-                  Start Learning
-                </Button>
+                <Link to={track.route}>
+                  <Button 
+                    variant="default" 
+                    className="w-full bg-gradient-primary hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
+                  >
+                    Start Learning
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
