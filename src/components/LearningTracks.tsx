@@ -35,7 +35,7 @@ const learningTracks = [
 
 const LearningTracks = () => {
   return (
-    <section id="courses" className="py-24 bg-background">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -66,7 +66,6 @@ const LearningTracks = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
-                {/* Wrap button in Link properly */}
                 <Link to={track.route} className="block w-full">
                   <Button
                     variant="default"
