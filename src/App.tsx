@@ -12,6 +12,9 @@ import CS from "./pages/CS";
 import Finance from "./pages/Finance";
 import DataScience from "./pages/DataScience";
 
+// ✅ Import the ScrollToTop helper
+import ScrollToTop from "./components/ScrollToTop";
+
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -21,6 +24,9 @@ const App = () => {
         <Toaster />
         <Sonner />
         <Routes>
+          {/* ✅ Force scroll to top on every route change */}
+          <Route path="*" element={<ScrollToTop />} />
+
           {/* Homepage */}
           <Route path="/" element={<Index />} />
 
