@@ -39,7 +39,7 @@ export default function Math() {
       </div>
 
       {/* Courses Section */}
-      <div className="courses-section" id="courses">
+      <div className="courses-section">
         <div className="section-header">
           <h2 className="section-title">Mathematics Courses</h2>
           <p className="section-subtitle">
