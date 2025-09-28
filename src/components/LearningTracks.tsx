@@ -25,11 +25,11 @@ const learningTracks = [
     route: "/finance"
   },
   {
-    title: "Data Science",
-    description: "Analyze data, build models, and extract insights using Python & tools.",
-    icon: "📈",
+    title: "Physics",
+    description: "Master classical mechanics, E&M, quantum theory, and relativity.",
+    icon: "⚛️",
     gradient: "from-orange-500 to-red-600",
-    route: "/data-science"
+    route: "/physics"
   }
 ];
 
