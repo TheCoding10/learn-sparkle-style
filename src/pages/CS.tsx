@@ -3,6 +3,28 @@ import "./CS.css";
 export default function CS() {
   return (
     <div>
+      {/* Navigation */}
+      <nav>
+        <a href="/" className="logo">
+          <div className="logo-icon">M</div>
+          MemoLearning
+        </a>
+        <ul className="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <div className="nav-actions">
+          <a href="/signin" className="sign-in">Sign In</a>
+        </div>
+      </nav>
+
+      {/* Back Link */}
+      <a href="/" className="back-link">
+        ← Back to Homepage
+      </a>
+
       {/* Hero Section */}
       <div className="hero">
         <h1>
