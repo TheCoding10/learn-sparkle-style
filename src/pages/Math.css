@@ -1,24 +1,29 @@
-.math-hero {
+.hero {
   text-align: center;
   margin: 40px 0;
 }
 
-.math-highlight {
+.highlight {
   color: #7b2ff7;
 }
 
-.math-courses-section {
+.courses-section {
   margin-top: 40px;
+  text-align: center;
 }
 
-.math-course-grid {
+.section-header {
+  margin-bottom: 20px;
+}
+
+.course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
 
-.math-course-card {
+.course-card {
   background: white;
   border: 1px solid #eee;
   border-radius: 10px;
@@ -26,7 +31,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.math-course-card:hover {
+.course-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
