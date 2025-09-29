@@ -7,7 +7,7 @@ export default function Physics() {
       {/* Navigation */}
       <nav>
         <a href="/" className="logo">
-          <div className="logo-icon">P</div>
+          <div className="logo-icon">M</div> {/* ✅ Fixed: Always show "M" for MemoLearning */}
           MemoLearning
         </a>
         <ul className="nav-links">
@@ -32,8 +32,8 @@ export default function Physics() {
           Master <span className="highlight">Physics</span>
         </h1>
         <p>
-          Master the laws of the universe — from mechanics to quantum physics —
-          with structured, clear lessons designed for deep understanding.
+          Master the laws of the universe from mechanics to quantum physics with
+          structured, clear lessons designed for deep understanding.
         </p>
       </div>
 
