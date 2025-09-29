@@ -1,76 +1,140 @@
-/* Hero Section */
+/* Finance.css */
+
+/* --- Navigation Bar --- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #111;
+}
+
+.logo-icon {
+  background: #7c3aed; /* purple */
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #7c3aed;
+}
+
+.nav-actions .sign-in {
+  padding: 0.5rem 1rem;
+  border: 1px solid #7c3aed;
+  border-radius: 6px;
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-actions .sign-in:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+/* --- Hero Section --- */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .hero .highlight {
-  color: #16a34a; /* ✅ green accent for Finance */
+  color: #7c3aed; /* purple highlight */
 }
 
 .hero p {
   margin-top: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   color: #555;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Section Header */
+/* --- Section Header --- */
 .section-header {
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .section-subtitle {
-  color: #666;
+  color: #555;
   font-size: 1rem;
 }
 
-/* Course Grid */
+/* --- Course Grid --- */
 .course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   padding: 0 2rem;
-  margin-bottom: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Course Cards */
 .course-card {
-  display: block;
   background: white;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 12px;
   padding: 1.5rem;
   text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: inherit;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .course-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 }
 
 .course-card h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #111827;
+  margin-bottom: 0.75rem;
 }
 
 .course-card p {
+  color: #555;
   font-size: 0.95rem;
-  color: #4b5563;
+  line-height: 1.4;
 }
