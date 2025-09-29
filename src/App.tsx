@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 import Math from "./pages/Math";
 import CS from "./pages/CS";
 import Finance from "./pages/Finance";
-import DataScience from "./pages/DataScience";
+import Physics from "./pages/Physics";
 
 // ✅ Import the ScrollToTop helper
 import ScrollToTop from "./components/ScrollToTop";
@@ -34,7 +34,7 @@ const App = () => {
           <Route path="/math" element={<Math />} />
           <Route path="/computer-science" element={<CS />} />
           <Route path="/finance" element={<Finance />} />
-          <Route path="/data-science" element={<DataScience />} />
+          <Route path="/physics" element={<Physics />} /> {/* ✅ Updated route */}
 
           {/* Catch-all for 404 */}
           <Route path="*" element={<NotFound />} />
